@@ -2,9 +2,8 @@
 Mi proyecto tiene los siguientes modelos:
   
   -Clientes
-  URL: /nuevocliente
   
-  -Productos: /
+  -Productos
   
   -Proveedores
   
