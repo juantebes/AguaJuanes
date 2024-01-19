@@ -1,0 +1,16 @@
+{% extends "padre.html" %}
+
+{% block titulo %} 
+<p>Agregar producto</p>
+    <form action="" method="POST">  {% csrf_token %}
+        <table>
+            {{formprod.as_table}}
+
+
+
+
+        </table>
+        
+        <input type="submit" value="Guardar">
+    </form>
+{% endblock %}

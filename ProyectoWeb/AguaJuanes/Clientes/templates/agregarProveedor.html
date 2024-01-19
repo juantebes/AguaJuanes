@@ -1,0 +1,16 @@
+{% extends "padre.html" %}
+
+{% block titulo %} 
+<p>Agregar proveedor</p>
+    <form action="" method="POST">  {% csrf_token %}
+        <table>
+            {{formproveedor.as_table}}
+
+
+
+
+        </table>
+        
+        <input type="submit" value="Guardar">
+    </form>
+{% endblock %}

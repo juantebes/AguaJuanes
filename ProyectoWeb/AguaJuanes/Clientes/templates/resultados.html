@@ -1,0 +1,9 @@
+{% extends "padre.html" %}
+
+{% block titulo %} 
+<p>Los productos que contienen el id ingresado son: {{numero_producto_pedido}}</p>
+    {% for x in productos %}
+        <p>{{x.nombre_producto}}</p>
+    {% endfor %}
+<p>Si la lista se encuentra vacía significa que no hay ningun producto con el id ingresado</p>
+{% endblock %}

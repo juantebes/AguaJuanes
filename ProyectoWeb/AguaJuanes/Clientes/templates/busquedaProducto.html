@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clientes</title>
+</head>
+<body>
+   
+    
+</body>
+</html>
+
+
+{% extends "padre.html" %}
+
+{% block titulo %} 
+
+<form action="/resultados" method="GET">
+    <p>Ingrese el id del producto que desea buscar:</p>
+    <input tpye="number" name="numero" id="numero">
+    <input type="submit" value="Buscar">
+</form>
+{% endblock %}
